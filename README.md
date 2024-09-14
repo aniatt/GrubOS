@@ -1,1 +1,1 @@
-# grubOS
+# GrubOS
