@@ -1,32 +1,36 @@
-# Prerequisites
-*.d
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Node
+node_modules/
+frontend/dist/
 
-# Precompiled Headers
-*.gch
-*.pch
+# Data & model weights
+data/
+*.pt
+*.onnx
+runs/
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 
-# Fortran module files
-*.mod
-*.smod
+# OS
+.DS_Store
+Thumbs.db
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Environment
+.env
+.env.local
